@@ -7,4 +7,4 @@ cd ./dotfiles
 
 git clone http://github.com/VundleVim/Vundle.Vim.git .vim/plugin/vundle.vim
 
-ln -s .vimrc ~/.vimrc
+ln -s .vimrc ~/dotfiles/.vimrc
