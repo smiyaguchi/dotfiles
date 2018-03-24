@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 mkdir ~/dotfiles
 git clone https://github.com/smiyaguchi/dotfiles.git ~/dotfiles/
