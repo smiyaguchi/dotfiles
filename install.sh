@@ -1,11 +1,9 @@
 #!/bin/bash
 
-DOTFILES_DIR=~/dotfiles
+for f in .??*
+do
+	[ "$f" = ".git" ] && continue
+	ln -snfv "$f" "$HOME"/"$f"
+done
 
-mkdir ~/dotfiles
-
-git clone https://github.com/smiyaguchi/dotfiles.git $DOTFILES_DIR
-git clone http://github.com/VundleVim/Vundle.Vim.git $DOTFILES_DIR/.vim/plugin/vundle.vim
-
-ln -s $DOTFILES_DIR/.vimrc .vimrc
-ln -s $DOTFILES_DIR/.gitconfig .gitconfig
+git clone http://github.com/VundleVim/Vundle.Vim.git ./.vim/plugin/vundle.vim
