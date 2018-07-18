@@ -29,4 +29,3 @@ set wrapscan
 set hlsearch
 
 inoremap { {}<LEFT>
-inoremap ( ()<LEFT>
