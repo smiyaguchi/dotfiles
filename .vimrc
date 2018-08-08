@@ -27,5 +27,3 @@ set smartcase
 set incsearch
 set wrapscan
 set hlsearch
-
-inoremap { {}<LEFT>
