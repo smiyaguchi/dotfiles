@@ -15,4 +15,4 @@ do
     ln -snfv "$DOTPATH/$f" "$HOME"/"$f"
 done
 
-git clone http://github.com/VundleVim/Vundle.Vim.git ./.vim/plugin/vundle.vim
+git clone http://github.com/VundleVim/Vundle.Vim.git ./.vim/bundle/vundle.vim

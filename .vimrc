@@ -1,11 +1,12 @@
 set nocompatible
 filetype off
 
-set rtp+=~/dotfiles/.vim/plugin/vundle.vim
+set rtp+=~/dotfiles/.vim/bundle/vundle.vim
 call vundle#begin()
 
 Plugin 'gmarik/Vundle.vim'
 Plugin 'rust-lang/rust.vim'
+Plugin 'fatih/vim-go'
 
 call vundle#end()
 filetype plugin indent on
