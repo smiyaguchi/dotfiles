@@ -1,3 +1,7 @@
 [user]
 	name = smiyaguchi
 	email = smiyaguchi96@gmail.com
+[alias]
+	co = checkout
+	st = status
+	br = branch
