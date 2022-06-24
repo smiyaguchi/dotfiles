@@ -10,11 +10,9 @@ esac
 # -------------------- ENVIRONMENT --------------------
 export EDITOR=vim
 
-
 # -------------------- ALIAS --------------------
-alias cd..='cd ..'
+alias k='kubectl'
 alias l='ls'
 alias ll='ls -alh'
-alias k='kubectl'
-alias gd='git diff'
-alias gs='git status'
+alias m='make'
+alias t='tmux'

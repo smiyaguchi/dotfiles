@@ -2,6 +2,8 @@
 	name = smiyaguchi
 	email = smiyaguchi96@gmail.com
 [alias]
+	br = branch
+    cm = commit
 	co = checkout
 	st = status
-	br = branch
+    sw = switch
