@@ -12,7 +12,8 @@ esac
 
 # -------------------- ENVIRONMENT --------------------
 export EDITOR=vim
-export PATH=$PATH:/usr/local/go/bin
+export GOPATH=$HOME/go
+export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin
 
 # -------------------- ALIAS --------------------
 alias k='kubectl'
